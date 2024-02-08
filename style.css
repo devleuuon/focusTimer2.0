@@ -34,7 +34,7 @@
 
 .timer {
     text-align: center;
-    font-size: 8.6rem;
+    font-size: 6.6rem;
     font-weight: 700;
     color: var(--text-color);
     margin: 3.2rem 0 1.2rem;
@@ -86,6 +86,10 @@
         justify-content: center;
         margin-top: 9.2rem;
         gap: 9.2rem;
+    }
+
+    .timer {
+        font-size: 8.6rem;
     }
 }
 
