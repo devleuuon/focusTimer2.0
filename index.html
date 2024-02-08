@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./src/main.js" defer></script>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <title>Focus Timer 2.0</title>
+</head>
+<body>
+
+    <div id="app">
+
+    <section>
+
+            <div class="timer">
+                <span class="minutes">25</span>
+                <span>:</span>
+                <span class="seconds">00</span>
+            </div>
+            
+            <div class="controls">
+                <button>
+                    <img src="./assets/play.svg" alt="Play" 
+                    data-action="toggleRunning">
+                    <span class="sr-only">Iniciar contador</span>
+                </button>
+
+                <button>
+                    <img src="./assets/stop.svg" alt="Pause" 
+                    data-action="reset">
+                    <span class="sr-only">Pausar contador</span>
+                </button>
+
+                <button>
+                    <img src="./assets/more.svg" alt="Mais" 
+                    data-action="more">
+                    <span class="sr-only">Aumentar cinco minutos</span>
+                </button>
+
+                <button>
+                    <img src="./assets/less.svg" alt="Menos" 
+                    data-action="less">
+                    <span class="sr-only">Diminuir cinco minutos</span>
+                </button>
+            </div>
+        </section>
+
+        <aside>
+            <div class="cards">
+                <div class="cardTop">
+                    <button class="button1" id="marginRight">
+                        <img src="./assets/forest.svg" alt="botão de som floresta"
+                        data-action="soundForest">
+                        <span class="sr-only">botão de som floresta</span>
+                    </button>
+
+                    <button class="button2">
+                        <img src="./assets/rain.svg" alt="botão de som chuva"
+                        data-action="soundRain">
+                        <span class="sr-only">botão de som floresta</span>
+                    </button>
+                </div>
+                
+
+                <div class="cardBottom">
+                    <button class="button3" id="marginRight">
+                        <img src="./assets/coffeeShop.svg" alt="botão de som cafeteria"
+                        data-action="soundCoffeeShop">
+                        <span class="sr-only">botão de som floresta</span>
+                    </button>
+
+                    <button class="button4">
+                        <img src="./assets/firePlace.svg" alt="botão de som lareira"
+                        data-action="soundFirePlace">
+                        <span class="sr-only">botão de som floresta</span>
+                    </button>
+                </div>
+
+            </div>
+        </aside>
+
+    </div>
+</body>
+</html>
